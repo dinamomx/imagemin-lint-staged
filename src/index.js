@@ -9,7 +9,7 @@ const writeFile = promisify(fs.writeFile);
 
 const plugins = [
   [
-    "imagemin-gifsicle",
+    "@dinamomx/imagemin-gifsicle",
     {
       interlaced: true
     }
