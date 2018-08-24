@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs";
 import child_process from "child_process";
-import promisify from "util.promisify";
+import {promisify} from "util";
 
 const stat = promisify(fs.stat);
 const exec = promisify(child_process.exec);

@@ -21,7 +21,7 @@ const plugins = [
     }
   ],
   [
-    "imagemin-optipng",
+    "@dinamomx/imagemin-optipng",
     {
       optimizationLevel: 5
     }
