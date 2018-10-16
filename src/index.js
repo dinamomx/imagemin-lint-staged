@@ -15,7 +15,7 @@ const plugins = [
     }
   ],
   [
-    "imagemin-jpegtran",
+    "@dinamomx/imagemin-jpegtran",
     {
       progressive: true
     }
