@@ -67,23 +67,23 @@
     "pre-commit:lib": "npm run build:lib"
   },
   "dependencies": {
-    "@dinamomx/imagemin-optipng": "^5.2.2",
     "@dinamomx/imagemin-gifsicle": "^5.2.0",
     "@dinamomx/imagemin-jpegtran": "^5.0.2",
+    "@dinamomx/imagemin-optipng": "^5.2.2",
     "imagemin-svgo": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-rc.2",
-    "@babel/core": "^7.0.0-rc.2",
-    "@babel/preset-env": "^7.0.0-rc.2",
-    "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.4.2",
-    "husky": "^1.0.0-rc.13",
-    "jest": "^23.5.0",
-    "lint-staged": "^7.2.2",
-    "prettier": "^1.14.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
     "regenerator-runtime": "^0.12.1",
-    "standard-version": "^4.4.0",
-    "semver": "^5.5.1"
+    "semver": "^5.6.0",
+    "standard-version": "^4.4.0"
   }
 }
